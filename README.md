@@ -21,4 +21,4 @@ Design: [Yoga](https://discord.com/channels/571393319201144843/91239708552398848
 
 ## Authors
 
-Kristina: [Github](https://github.com/Skriste)
+KristinaS: [Github](https://github.com/Skriste)
