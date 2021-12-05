@@ -1,11 +1,11 @@
 :root {
     --oranzine: #ff4622;
-    --plotis: --1000px;
-    --soninis-atstumas:calc((100% - var(--plotis)) / 2);
+    --plotis: 1200px;
+    --soninis-atstumas: calc((100% - var(--plotis)) / 2);
     --main-width: calc(100% - var(--soninis-atstumas));
     --text-width: calc(var(--plotis) * 0.4);
     --text-margin: calc(var(--plotis) * 0.1);
-    --image-width: calc(cal(100% - var(--plotis) / 2 ));    
+    --image-width: calc(var(--plotis) * 0,5 + var(--soninis-atstumas));    
 }
 body {
     font-family: cursive
@@ -46,24 +46,23 @@ nav > a:first-child {
 }
 
 main {
-    display: inline-block;
+    float: left;
     width: var(--main-width);
     margin-left: var(--soninis-atstumas);
-    margin-top: 60px;
 }
 
 div {
     float: left;
     text-align: left;
-    margin-top: 10%;
-    width: var(--text-width);
+    margin-top: 80px;
+    width: 25%;
     margin-right: var(--text-margin);
 }
 
 h1 {
     display: inline-block;
-    width: 35%;
-    font-size: 45px;
+    width: 120%;
+    font-size: 30px;
     margin: 0;
 }
 
@@ -72,8 +71,9 @@ h1 > span {
 }
 
 p {
-    width: 36%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 160%;
+    font-size: 20px;
+    font-family: cursive;
 }
 
 div > a {
@@ -88,12 +88,10 @@ div > a {
 }
 div > a:hover {
     color: #fff;
-    background-color: var(--oranzine);
+    background-color: blue;
 } 
 
 main > img {
     float: right;
-    width: var(--image-width);
-    margin-left: 50px;
-    margin-top: 10px;
+    width: var(--image-width);   
 }
